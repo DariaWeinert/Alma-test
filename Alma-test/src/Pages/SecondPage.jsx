@@ -9,24 +9,24 @@ const SecondPage = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
 
     const openModal = () => {
-      setIsModalOpen(true);
-      console.log('modal opened')
-    };
-  
-    const closeModal = () => {
-      setIsModalOpen(false);
+        setIsModalOpen(true);
+        console.log('modal opened')
     };
 
-  return (
-    <Box mt="8" px="4">
-      <Heading mb="4">Second Page</Heading>
-      <Box height="80vh" overflowY="auto">
-        <LongText/>
-      </Box>
-      <FloatingActionButton onClick={openModal}/>
-      <CustomModal isOpen={isModalOpen} onClose={closeModal}/> 
-    </Box>
-  );
+    const closeModal = () => {
+        setIsModalOpen(false);
+    };
+
+    return (
+        <Box mt="8" px="4">
+            <Heading mb="4">Second Page</Heading>
+            <Box height="80vh" overflowY="auto">
+                <LongText />
+            </Box>
+            <FloatingActionButton onClick={openModal} />
+            <CustomModal isOpen={isModalOpen} onClose={closeModal} />
+        </Box>
+    );
 };
 
 export default SecondPage;

@@ -1,0 +1,13 @@
+.chakra-modal__close-btn:focus {
+    box-shadow: none;
+}
+
+.chakra-modal__close-btn:hover {
+    border: none;
+    color: #2c1c52;
+}
+
+.chakra-modal__close-btn {
+    transition: none;
+    transition: color 0.4s ease;
+}

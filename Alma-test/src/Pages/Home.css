@@ -1,8 +1,15 @@
-.custom-btn{
-text-decoration: none;
-transition: color 0.4s ease;
+.custom-btn {
+    text-decoration: none;
+    text-decoration: none;
+    transition: color 0.4s ease;
 }
-.custom-btn:hover{
+
+.custom-btn:hover {
     text-decoration: none;
     color: #351157;
-    }
+}
+
+.custom-link:hover {
+    text-decoration: none;
+    color: #351157;
+}

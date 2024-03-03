@@ -38,7 +38,7 @@ const LongText = () => {
                             <UnorderedList>
                                 <ListItem>Typing in the input field will filter the options shown in the dropdown and present a + button next to it.</ListItem>
                                 <ListItem>Clicking the + button or the Enter key when the input field is not empty will add the text entered to the selected items list and clear the input field.</ListItem>
-                            <ListItem>A ‘Save’ button for submitting the form.</ListItem>
+                                <ListItem>A ‘Save’ button for submitting the form.</ListItem>
                             </UnorderedList>
                             <ListItem>After submitting the form:</ListItem>
                         </OrderedList>

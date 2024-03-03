@@ -4,7 +4,7 @@ import "./NavBar.css"
 
 const NavigationBar = () => {
   return (
-    <Flex bg="purple.500" width="100vw"p="4" alignItems="center">
+    <Flex bg="purple.500" width="100vw" p="4" alignItems="center">
       <Box p="0">
         <img className='logo-img' src="https://storage.googleapis.com/finder-images/$yvNOHcGAtbbmpEAwnxvozfQwmjWkbVbW98WhfxjiQcxYRwwqyVauZ9" alt="Logo" />
       </Box>
